@@ -1,0 +1,254 @@
+/*En aquest fitcher hi ha tots els estils de la pagina de google html*/
+body.cos{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    display: block;
+    height: 704px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-width: 400px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    
+}
+
+header.tamany{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+    width: 100%;
+    height: 60px;
+    margin: 0px 9px;
+}
+
+div.SobreTienda{
+    margin-left: 15px;
+    display: inline-block;
+    justify-content: flex-start;
+    display: inline-block;
+    flex-direction:row;
+    align-items: center;
+    cursor: pointer; 
+    float: left;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+div.head{
+    font: 13px/27px Roboto,Arial,sans-serif;
+    display: inline-block;
+    flex-direction:row;
+    align-items: center;
+    cursor: pointer; 
+    justify-content: flex-end;
+}
+img.widget{
+    padding-top: 9px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+a{
+    margin-right: 7px;
+    margin-left: 7px;
+    text-decoration: none;
+}
+button.boto{
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: white;
+    padding: 9px 15px;
+    min-width: 80px;
+    margin-left: 8px;
+    border: 1px solid transparent; 
+    cursor: pointer;
+}
+
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100% - 560px);
+    width: 100%;
+    height: 144px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    
+}
+img.logo{
+    width: auto;
+    height: 92px; 
+}
+img.tec{
+    height: 20px;
+    width: 28px;
+    margin-top: 11px;
+    margin-right: 4px;
+}
+div.posició{
+    box-sizing: border-box;
+    display: block;
+    flex-shrink: 0;
+    max-height: 160px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+}
+
+div.container{
+    display: flex;
+    height: 44px;
+    border: 1px solid #8ba2e7;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    align-items: flex-start;
+
+}
+img.busc{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 22px;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+input.text{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 11px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+img.mic{
+    height: 26px;
+    width: 17px;
+    margin-top: 9px;
+    margin-right: 4px;
+}
+img.cam{
+    height: 20px;
+    width: 24px;
+    vertical-align: middle;
+    margin-top: 11px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+div.botons{
+    display: block;
+    text-align: -webkit-center;
+}
+button.boto1{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+button.boto2{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+div.tradu{
+    height: 260px;
+    width: 100%;
+}
+div.idiomas{
+    display: flex;
+    justify-content: center;
+    height: 28px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    color: #4d5156;
+    
+
+}
+
+footer.foot{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 14px;
+}
+
+img.hoj{
+    height: 12,25px;
+    width: 12.25px;
+    margin-top: 9px;
+    margin-right: 4px;
+}
+div.footPais{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 40px;
+    background-color: #f8f4f4;
+    border-bottom: 1px solid #dadce0;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #70757A;
+}
+div.footDades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    background-color: #f8f4f4;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757A;
+}
